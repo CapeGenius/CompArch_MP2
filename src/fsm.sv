@@ -25,8 +25,8 @@ module fsm #(
     logic pwm_out;
 
     initial begin
-        counter <= 0;
-        phases <= 0; 
+        counter = 0;
+        phases = 0;
     end
 
     fade #(
@@ -63,7 +63,6 @@ module fsm #(
     end
 
     always_comb begin
-
         {red, green, blue} = 3'b000;
 
         case (phases)
