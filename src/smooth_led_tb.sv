@@ -1,5 +1,5 @@
 `timescale 10ns/10ns
-`include "../src/top.sv"
+`include "top.sv"
 
 module smooth_led_tb;
 
